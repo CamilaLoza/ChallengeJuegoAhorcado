@@ -1,0 +1,200 @@
+body {
+    background-color: #f3f5fc;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(img/pizarron.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.logo{
+    margin: 0px;
+    padding: 0px; 
+    width: 100%;
+    text-align: center;
+ 
+}
+
+
+.logo-img{
+    width: 40%;
+}
+
+
+
+.monstruo-ahorcado {
+    width: 18%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    margin-top: 0%;
+    margin-left: 41%;
+    text-align: center;
+   
+
+  
+
+}
+
+
+
+#monstruo {
+    width: 100%;
+   
+
+}
+
+
+
+#adivinado{
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0%;
+    display: inline-block;
+
+
+}
+
+#letra>span{
+    display: inline-block;
+    width: 2.4vw;
+    height: 2.56vw;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 2.4vw;
+    color: black;
+    border-bottom:solid black;
+    margin-left: 0.64vw;
+    line-height: 2.4vw;
+}
+
+.botones{
+    width: 15%;
+    display: block;
+    margin-top: 3%;
+    padding: 0px;
+    position: absolute;
+    margin-left: 7%;
+    border-radius: 24px;
+}
+
+.boton1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 1.5vw;
+    padding: 1.5vw;
+    width: 100%;
+    height: 20%;
+    border-radius: 10px;
+    background-color: yellow;
+    border-style:solid;
+    border-color: orange;
+    transition: 0.5s background;
+    cursor: pointer;
+}
+
+.boton1:hover{
+    background-color:pink;
+}
+
+.boton2{
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: black;
+    padding: 1.5vw;
+    width: 100%;
+    height: 20%;
+    margin: 20%;
+    margin-left:0%;
+    border-radius: 10px;
+    background-color: yellow;
+    border-style: solid;
+    border-color: orange;
+    transition: 0.5s background;
+    cursor: pointer;   
+}
+
+.boton2:hover{
+    background-color: pink;
+}
+
+
+#teclado {
+    width:27%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4vw;
+    overflow:hidden;
+    float: right;
+    margin-top: 1%;
+    margin-right: 3%;
+
+}
+#letras>span {
+    padding:0.4vw;
+    width:13%;
+    text-align: center;
+    margin:0.2vw;
+    float:left;
+
+    border-radius: 8px;
+    background-color:pink;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: orange;
+    transition: 0.5s background;
+    cursor:pointer;
+}
+
+.teclaapretada{
+    cursor:default !important;
+    background-color: gray !important;
+}
+
+#letras>span:hover{
+background-color: yellow;
+}
+
+#letras>span.space {
+    width: calc( 100% - 4px);
+}
+#letras>span.space::after {
+    content:"espacio";
+}
+
+
+
+
+.pie{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2vw;
+    color:white;
+    width: 27%;
+    height: 10%;
+    position: fixed;
+    top: 36vw;
+    right: 1%;
+}
+
+.icon{
+    width: 2vw;
+    height: 2vw;
+}
+
+
+
+.pie>a:link { text-decoration: none; }
+
+
+.pie>a:visited { text-decoration: none; }
+
+
+.pie>a:hover { text-decoration: none; }
+
+
+.pie>a:active { text-decoration: none; }
